@@ -1,0 +1,242 @@
+[
+    {
+      "class": "Class 01",
+      "topic": "Intro to NodeJS",
+      "challenge": "Reverse Array"
+    },
+    {
+      "class": "Class 02",
+      "topic": "Modules and Testing",
+      "challenge": "insertShiftArray"
+    },
+    {
+      "class": "Class 03",
+      "topic": "Express Web Servers",
+      "challenge": "BinarySearch"
+    },
+    {
+      "class": "Class 04",
+      "topic": "REST API",
+      "challenge": "Mock Interviews: Sum Rows, nth Fibonacci"
+    },
+    {
+      "class": "Class 05",
+      "topic": "Linked Lists, Big O, Resume Workshop",
+      "challenge": "Linked List Implementation"
+    },
+    {
+      "class": "Class 06",
+      "topic": "Basic Authentication",
+      "challenge": "Linked List Insertion"
+    },
+    {
+      "class": "Class 07",
+      "topic": "Bearer Authentication",
+      "challenge": "kth-from-end"
+    },
+    {
+      "class": "Class 08",
+      "topic": "Role Based Access Control",
+      "challenge": "Zip"
+    },
+    {
+      "class": "Class 09",
+      "topic": "Guided Project",
+      "challenge": "Mock Interviews: Reverse Linked List, IsPalindrome"
+    },
+    {
+      "class": "Class 10",
+      "topic": "Stacks, Queues, Personal Pitch Workshop",
+      "challenge": "Stack, Queue Implementations"
+    },
+    {
+      "class": "Class 11",
+      "topic": "Event Driven Programming",
+      "challenge": "Queue with two stacks"
+    },
+    {
+      "class": "Class 12",
+      "topic": "Network Events",
+      "challenge": "FIFO Animal Shelter"
+    },
+    {
+      "class": "Class 13",
+      "topic": "Message Queues",
+      "challenge": "Balanced Brackets"
+    },
+    {
+      "class": "Class 14",
+      "topic": "Guided Project",
+      "challenge": "Mock Interviews: Stack Max, Duck Duck Goose"
+    },
+    {
+      "class": "Class 15",
+      "topic": "Trees, Job Search Workshop",
+      "challenge": "Tree Implementation"
+    },
+    {
+      "class": "Class 16",
+      "topic": "AWS: EC2 and Elastic Beanstalk",
+      "challenge": "Tree Max"
+    },
+    {
+      "class": "Class 17",
+      "topic": "AWS: S3 and Lambda",
+      "challenge": "Tree Breadth First"
+    },
+    {
+      "class": "Class 18",
+      "topic": "AWS: APIs and Dynamo DB",
+      "challenge": "Tree Fizz Buzz"
+    },
+    {
+      "class": "Class 19",
+      "topic": "AWS: Message Queues and Notifications",
+      "challenge": "Mock Interviews: Sum Odd, Compare Filenames"
+    },
+    {
+      "class": "Class 20",
+      "topic": "Project Kickoffs",
+      "challenge": "Team Setup, Ideation, Wireframes, Tooling"
+    },
+    {
+      "class": "Class 21",
+      "topic": "Wireframes, User Stories, Architecture Plan, DevOps, Documentation, Agreements"
+    },
+    {
+      "class": "Class 22",
+      "topic": "Phase 1"
+    },
+    {
+      "class": "Class 23",
+      "topic": "MVP"
+    },
+    {
+      "class": "Class 24",
+      "topic": "Final Polish, Presentation Practice"
+    },
+    {
+      "class": "Class 25",
+      "topic": "Live Project Presentations"
+    },
+    {
+      "class": "Class 26",
+      "topic": "React - Function Components",
+      "challenge": "Insertion Sort"
+    },
+    {
+      "class": "Class 27",
+      "topic": "React - State Hook",
+      "challenge": "Merge Sort"
+    },
+    {
+      "class": "Class 28",
+      "topic": "React - Effect Hook and Lifecycle",
+      "challenge": "Quick Sort"
+    },
+    {
+      "class": "Class 29",
+      "topic": "React - Reducer Hook",
+      "challenge": "Mock Interviews: Merge Sort, Quicksort"
+    },
+    {
+      "class": "Class 30",
+      "topic": "Hash Tables, Behavioral Interview Workshop",
+      "challenge": "Hash Tables Implementation"
+    },
+    {
+      "class": "Class 31",
+      "topic": "React - Context API",
+      "challenge": "Repeated Word"
+    },
+    {
+      "class": "Class 32",
+      "topic": "React - Context API",
+      "challenge": "B-Tree Intersection"
+    },
+    {
+      "class": "Class 33",
+      "topic": "React - Cookies, Local Storage Login and Auth components",
+      "challenge": "Map Left Join"
+    },
+    {
+      "class": "Class 34",
+      "topic": "React - RBAC",
+      "challenge": "Mock Interviews: Most Common Word, Unique Character Strings"
+    },
+    {
+      "class": "Class 35",
+      "topic": "Graphs, Technical Interview Workshop",
+      "challenge": "Graph Implementation"
+    },
+    {
+      "class": "Class 36",
+      "topic": "React - Redux Reducers, Actions, and State",
+      "challenge": "Graph Breadth First"
+    },
+    {
+      "class": "Class 37",
+      "topic": "Redux - Combined Reducers",
+      "challenge": "Graph Business Trip"
+    },
+    {
+      "class": "Class 38",
+      "topic": "Redux - Asynchronous Actions",
+      "challenge": "Graph Depth First"
+    },
+    {
+      "class": "Class 39",
+      "topic": "Redux - Alternatives and Advanced Usage",
+      "challenge": "Mock Interviews: Adj Matrix to Adj List, Graph Connected"
+    },
+    {
+      "class": "Class 40",
+      "topic": "Personal Presentation",
+      "challenge": "Final Exam Prep"
+    },
+    {
+      "class": "Class 41",
+      "topic": "React Native",
+      "challenge": "Mock Interview: Browser History, Find Anagrams"
+    },
+    {
+      "class": "Class 42",
+      "topic": "React Native",
+      "challenge": "Mock Interview: Reverse a string (3 ways), Sanitize URL"
+    },
+    {
+      "class": "Class 43",
+      "topic": "Open Source",
+      "challenge": "Mock Interviews: Estimate Water Usage, Convert year to roman numerals"
+    },
+    {
+      "class": "Class 44",
+      "topic": "Ethics",
+      "challenge": "Mock Interviews: Rotate a Matrix, Largest 3-Product"
+    },
+    {
+      "class": "Class 45",
+      "topic": "Project Kickoffs",
+      "challenge": "Team Setup, Ideation, Wireframes, Tooling"
+    },
+    {
+      "class": "Class 46",
+      "topic": "Wireframes, User Stories, Architecture Plan, DevOps, Documentation, Agreements"
+    },
+    {
+      "class": "Class 47",
+      "topic": "Phase 1"
+    },
+    {
+      "class": "Class 48",
+      "topic": "MVP"
+    },
+    {
+      "class": "Class 49",
+      "topic": "Final Polish, Presentation Practice"
+    },
+    {
+      "class": "Class 50",
+      "topic": "Live Project Presentations"
+    }
+  ]
