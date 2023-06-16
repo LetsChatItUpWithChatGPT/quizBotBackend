@@ -1,152 +1,63 @@
-[
-  {
-      "topic": "NodeJS"
-  },
-  {
-      "topic": "Modules and Testing"
-  },
-  {
-      "topic": "Express Web Servers"
-  },
-  {
-      "topic": "REST API"
-  },
-  {
-      "topic": "Linked Lists, Big O, Resume Workshop"
-  },
-  {
-      "topic": "Basic Authentication"
-  },
-  {
-      "topic": "Bearer Authentication"
-  },
-  {
-      "topic": "Role Based Access Control"
-  },
-  {
-      "topic": "Guided Project"
-  },
-  {
-      "topic": "Stacks, Queues, Personal Pitch Workshop"
-  },
-  {
-      "topic": "Event Driven Programming"
-  },
-  {
-      "topic": "Network Events"
-  },
-  {
-      "topic": "Message Queues"
-  },
-  {
-      "topic": "Guided Project"
-  },
-  {
-      "topic": "Trees, Job Search Workshop"
-  },
-  {
-      "topic": "AWS: EC2 and Elastic Beanstalk"
-  },
-  {
-      "topic": "AWS: S3 and Lambda"
-  },
-  {
-      "topic": "AWS: APIs and Dynamo DB"
-  },
-  {
-      "topic": "AWS: Message Queues and Notifications"
-  },
-  {
-      "topic": "Project Kickoffs"
-  },
-  {
-      "topic": "Wireframes, User Stories, Architecture Plan, DevOps, Documentation, Agreements"
-  },
-  {
-      "topic": "Phase 1"
-  },
-  {
-      "topic": "MVP"
-  },
-  {
-      "topic": "Final Polish, Presentation Practice"
-  },
-  {
-      "topic": "Live Project Presentations"
-  },
-  {
-      "topic": "React - Function Components"
-  },
-  {
-      "topic": "React - State Hook"
-  },
-  {
-      "topic": "React - Effect Hook and Lifecycle"
-  },
-  {
-      "topic": "React - Reducer Hook"
-  },
-  {
-      "topic": "Hash Tables, Behavioral Interview Workshop"
-  },
-  {
-      "topic": "React - Context API"
-  },
-  {
-      "topic": "React - Context API"
-  },
-  {
-      "topic": "React - Cookies, Local Storage Login and Auth components"
-  },
-  {
-      "topic": "React - RBAC"
-  },
-  {
-      "topic": "Graphs, Technical Interview Workshop"
-  },
-  {
-      "topic": "React - Redux Reducers, Actions, and State"
-  },
-  {
-      "topic": "Redux - Combined Reducers"
-  },
-  {
-      "topic": "Redux - Asynchronous Actions"
-  },
-  {
-      "topic": "Redux - Alternatives and Advanced Usage"
-  },
-  {
-      "topic": "Personal Presentation"
-  },
-  {
-      "topic": "React Native"
-  },
-  {
-      "topic": "React Native"
-  },
-  {
-      "topic": "Open Source"
-  },
-  {
-      "topic": "Ethics"
-  },
-  {
-      "topic": "Project Kickoffs"
-  },
-  {
-      "topic": "Wireframes, User Stories, Architecture Plan, DevOps, Documentation, Agreements"
-  },
-  {
-      "topic": "Phase 1"
-  },
-  {
-      "topic": "MVP"
-  },
-  {
-      "topic": "Final Polish, Presentation Practice"
-  },
-  {
-      "topic": "Live Project Presentations"
-  }
-]
+{
+  "topics": [
+    {
+      "name": "nodejs",
+      "questions": [
+        {
+          "question": "What is Node.js?",
+          "choices": [
+            {
+              "option": "A",
+              "text": "A database management system"
+            },
+            {
+              "option": "B",
+              "text": "A programming language"
+            },
+            {
+              "option": "C",
+              "text": "An open-source, server-side JavaScript runtime environment."
+            }
+          ],
+          "answer": "C"
+        },
+        {
+          "question": "What is npm?",
+          "choices": [
+            {
+              "option": "A",
+              "text": "Node Package Manager"
+            },
+            {
+              "option": "B",
+              "text": "Node Programming Module"
+            },
+            {
+              "option": "C",
+              "text": "A markup language for web development"
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What is the main benefit of using Node.js?",
+          "choices": [
+            {
+              "option": "A",
+              "text": "Allows for synchronous programming"
+            },
+            {
+              "option": "B",
+              "text": "Provides easy integration with PHP"
+            },
+            {
+              "option": "C",
+              "text": "Allows for asynchronous, event-driven programming, making it highly scalable and efficient for handling concurrent requests."
+            }
+          ],
+          "answer": "C"
+        }
+      ]
+    }
+  ]
+}
