@@ -2,10 +2,10 @@
   "name": "quizbotbackend",
   "version": "1.0.0",
   "description": "## Authors: Donna Ada, Kao Saelor, Kenya Womack, Hayden Cooper, Tricia Sawyer, Reece Renninger",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
