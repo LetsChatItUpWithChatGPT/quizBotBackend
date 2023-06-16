@@ -3,67 +3,55 @@
 require('dotenv').config();
 
 const { App } = require('@slack/bolt');
-const axios = require('axios');
+const quizData = require('./quizData.json'); // Import the quizData
 
-const classData = require('./quizData.json');
-
+// Initializes your app with your bot token and signing secret
 const app = new App({
   token: process.env.SLACK_BOT_TOKEN,
   signingSecret: process.env.SLACK_SIGNING_SECRET,
+  socketMode: true, // enable the following to use socket mode
+  appToken: process.env.SLACK_APP_TOKEN,
 });
 
-async function generateQuizQuestion(topic) {
+app.command('/hi', async ({ command, ack, say }) => {
   try {
-    const response = await axios.post(
-      'https://api.openai.com/v1/engines/davinci-codex/completions',
-      {
-        prompt: `Generate a quiz question for ${topic}`,
-        max_tokens: 50,
-        temperature: 0.8,
-        n: 1,
-      },
-      {
-        headers: {
-          'Content-Type': 'application/json',
-          Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
-        },
-      }
-    );
-
-    const question = response.data.choices[0].text.trim();
-    return question;
+    console.log('>>>>>', command);
+    await ack();
+    say('QuizBot is working!!!');
   } catch (error) {
-    console.error('Error generating quiz question:', error.message);
-    return 'Sorry, an error occurred while generating the quiz question.';
+    console.log('err');
+    console.error(error);
   }
-}
+});
 
 app.command('/quiz', async ({ command, ack, say }) => {
   try {
+    console.log('>>>>>', command);
     await ack();
 
-    const selectedTopic = command.text.toLowerCase();
+    const { topics } = quizData;
+    const randomTopic = topics[Math.floor(Math.random() * topics.length)]; // Select a random topic
+    const { questions } = randomTopic;
+    const randomQuestion = questions[Math.floor(Math.random() * questions.length)]; // Select a random question
+    const { question, choices } = randomQuestion;
 
-    const classInfo = classData.find(
-      (info) => info.topic.toLowerCase() === selectedTopic
-    );
+    // Construct the question message with multiple-choice options
+    let message = `Question: ${question}\n\n`;
+    choices.forEach((choice) => {
+      message += `${choice.option}. ${choice.text}\n`;
+    });
 
-    if (classInfo) {
-      const quizQuestion = await generateQuizQuestion(classInfo.topic);
-      const message = `Here's a quiz question for ${classInfo.topic}: ${quizQuestion}`;
-      await say(message);
-    } else {
-      const errorMessage = 'Sorry, I couldn\'t find any matching class for the selected topic.';
-      await say(errorMessage);
-    }
+    say(message);
+
   } catch (error) {
-    console.error('Error processing /quiz command:', error.message);
-    await say('Sorry, an error occurred while processing your request.');
+    console.log('err');
+    console.error(error);
   }
 });
 
 (async () => {
   const port = process.env.PORT || 3002;
+  // Start your app
   await app.start(port);
-  console.log(`⚡️ Slack Bolt app is running on port ${port}!`);
+  console.log(`⚡️ Slack Bolt server is running on port ${port}!`);
 })();
